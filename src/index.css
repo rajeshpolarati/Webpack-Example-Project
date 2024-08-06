@@ -1,0 +1,30 @@
+/* This is a comment */
+.container {
+  background-color: whitesmoke;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container input {
+  width: 100%;
+  padding: 10px;
+  border: black solid transparent;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  max-width: 400px;
+}
+.action_container {
+  display: flex;
+  gap: 20px;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
